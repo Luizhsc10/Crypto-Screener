@@ -7,11 +7,11 @@ const Header = () => {
       <div className="main-container inner">
         <Link href="/" aria-label="Go to homepage">
           <Image
-            src="/public/logo.svg"
-            alt="CoinCash Logo"
+            className="logo"
+            src="logo.svg"
+            alt="CoinPulse Logo"
             width={132}
-            height={40}
-            priority
+            height={30}
           />
         </Link>
       </div>
